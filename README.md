@@ -128,4 +128,5 @@ INSERT INTO Programs (Name, Stage, Description, Info, Features, Target, Offensiv
 INSERT INTO Programs (Name, Stage, Description, Info, Features, Target, Offensive, commands) VALUES ('CeWL', 'Enum', 'spiders a given url returning a wordlist that is intednded for cracking passwords', 'https://tools.kali.org/password-attacks/cewl', 'Brute', 'Web', 'Y', NULL);
 
 COMMIT TRANSACTION;
-PRAGMA foreign_keys = on;
+PRAGMA foreign_keys = on
+'Open'
